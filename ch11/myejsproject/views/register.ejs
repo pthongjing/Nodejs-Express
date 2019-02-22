@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include head %>
+</head>
+<body class="container">
+
+        <header>
+                <% include header %>
+            </header>
+
+        <main>
+                <div class="jumbotron">
+    <h1><%= topicHead %></h1>
+    <form name="form1" method="POST" action="/student/add">
+    <table>
+        <tr>
+        <td>First name</td>
+        <td><input type="text" name="fname" ></td>
+        </tr>
+        <tr>
+        <td>last name</td>
+        <td><input type="text" name="lname" ></td>
+        </tr>
+        <tr>
+        <td colspan="2"><input type="submit" value="Save" ></td>
+        </tr>
+    </table>
+    </form>   
+    <% if(userValue!=null){ %>    
+        <div> Data Entered as 
+        <p> <%= userValue.first %>  <%= userValue.last %></p> </div>
+    <%}%> 
+                </div>
+                </main>
+                <% include footer %>
+</body>
+</html>

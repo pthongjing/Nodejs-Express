@@ -1,0 +1,12 @@
+{
+    "name": "ejs-demo",
+    "version": "1.0.0",
+    "description": "Sample Website built with Express.js with EJS",
+    "dependencies": {
+        "ejs": "^2.6.1",
+        "express": "^4.16.4",
+        "jade": "^1.11.0",
+        "nib": "^1.1.2",
+        "stylus": "^0.54.5"
+    }
+}
