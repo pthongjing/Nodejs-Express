@@ -1,0 +1,42 @@
+D:\TestMVC\myProject> node index.js
+D:\TestMVC\myProject> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (myproject)
+version: (1.0.0)
+git repository:
+keywords: Node.js Express.js
+author: Patikom
+license: (ISC)
+About to write to D:\TestMVC\myProject\package.json:
+
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "Building Website with Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patikom",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "Node.js",
+    "Express.js"
+  ]
+}
+
+
+Is this OK? (yes)
