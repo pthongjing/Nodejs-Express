@@ -1,0 +1,9 @@
+{
+   "name": "myProject",
+   "version": "0.0.1",
+   "description": "Express 4 Tutorial",
+   "main": "index.js",
+   "dependencies": {
+      "express": "^4.16.4"
+   }
+}
